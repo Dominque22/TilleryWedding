@@ -3,6 +3,7 @@
     <img  class="logo" alt="Title" src="../assets/titlenameFirst.png">
     <HelloWorld/>
     <Timeline/>
+    
   </div>
 </template>
 
