@@ -1,9 +1,11 @@
 <template>
+  <div >
   <nav>
-    <router-link to="/">Home</router-link> |
+    <router-link to="/">Home</router-link>
     <router-link to="/about">About</router-link>
   </nav>
   <router-view/>
+  </div>
 </template>
 
 <style lang="scss">
@@ -14,16 +16,25 @@
   text-align: center;
   color: #2c3e50;
 }
-
+html, 
+body {
+  background-color: #fff7ef;
+}
 nav {
-  padding: 30px;
+  padding-bottom: 30px;
+  text-align: right;
 
   a {
-    font-weight: bold;
-    color: #2c3e50;
+    color: #FFCC99;
+    margin-right: 8px;
+    text-decoration: none;
+
+    
+    
 
     &.router-link-exact-active {
-      color: #42b983;
+      //color: #944610; //titlename.png
+        color: #AB1150; //titlenamePeach.png
     }
   }
 }
